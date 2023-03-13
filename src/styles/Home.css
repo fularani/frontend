@@ -1,0 +1,24 @@
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  .product {
+    text-decoration: none;
+    border: 1px solid rgb(236, 235, 235);
+  }
+  .product-image img {
+    height: 400px;
+    color: rgb(229, 224, 224);
+  }
+  .product-details {
+    padding: 15px;
+  }
+  .product-name {
+    margin: 10px 0 0;
+    color: rgb(103, 103, 103);
+  }
+  .product-desc {
+    margin: 10px 0 0;
+    color: rgb(187, 187, 187);
+  }
